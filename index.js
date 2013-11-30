@@ -31,10 +31,10 @@ var playSound2 = true;
 sound1Div.onclick = function () {
 	playSound1 = !playSound1;
 	if (playSound1) {
-		sound1Div.src = 'resources/sound1.png';
+		sound1Div.src = 'resources/sound2.png';
 		backgroundSound.play();
 	} else {
-		sound1Div.src = 'resources/sound1t.png';
+		sound1Div.src = 'resources/sound2t.png';
 		backgroundSound.pause();
 	}
 }
@@ -42,9 +42,9 @@ sound1Div.onclick = function () {
 sound2Div.onclick = function () {
 	playSound2 = !playSound2;
 	if (playSound2) {
-		sound2Div.src = 'resources/sound2.png';
+		sound2Div.src = 'resources/sound1.png';
 	} else {
-		sound2Div.src = 'resources/sound2t.png';
+		sound2Div.src = 'resources/sound1t.png';
 	}
 }
 

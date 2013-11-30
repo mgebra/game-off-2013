@@ -1,13 +1,13 @@
- var backgroundSound = new Audio("resources/pyramids.mp3");
+ var backgroundSound = new Audio("resources/pyramids.wav");
  backgroundSound.addEventListener('ended', function() {
      this.currentTime = 0;
      this.play();
  }, false);
 
-var winSound = new Audio("resources/win.mp3");
-var loseSound = new Audio("resources/lose.mp3");
-var burnSound = new Audio("resources/burn.mp3");
-var bombSound = new Audio("resources/bomb.mp3");
+var winSound = new Audio("resources/win.wav");
+var loseSound = new Audio("resources/lose.wav");
+var burnSound = new Audio("resources/burn.wav");
+var bombSound = new Audio("resources/bomb.wav");
 
 var player1Img = getImage("sun.png");
 
@@ -24,8 +24,8 @@ var stones = [ getImage("stone0.png"),
 var grounds = [ getImage("ground0.png"), 
 				getImage("ground1.png") ];
 
-var left = getImage("_left.png");
-var right = getImage("_right.png");
+var left = getImage("left.png");
+var right = getImage("right.png");
 
 function getImage (name) {
 	var img = new Image();
