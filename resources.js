@@ -24,8 +24,8 @@ var stones = [ getImage("stone0.png"),
 var grounds = [ getImage("ground0.png"), 
 				getImage("ground1.png") ];
 
-var left = getImage("_left.png");
-var right = getImage("_right.png");
+var left = getImage("left.png");
+var right = getImage("right.png");
 
 function getImage (name) {
 	var img = new Image();
