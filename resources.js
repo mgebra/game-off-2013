@@ -1,13 +1,13 @@
- var backgroundSound = new Audio("resources/pyramids.mp3");
+ var backgroundSound = new Audio("resources/pyramids.wav");
  backgroundSound.addEventListener('ended', function() {
      this.currentTime = 0;
      this.play();
  }, false);
 
-var winSound = new Audio("resources/win.mp3");
-var loseSound = new Audio("resources/lose.mp3");
-var burnSound = new Audio("resources/burn.mp3");
-var bombSound = new Audio("resources/bomb.mp3");
+var winSound = new Audio("resources/win.wav");
+var loseSound = new Audio("resources/lose.wav");
+var burnSound = new Audio("resources/burn.wav");
+var bombSound = new Audio("resources/bomb.wav");
 
 var player1Img = getImage("sun.png");
 
